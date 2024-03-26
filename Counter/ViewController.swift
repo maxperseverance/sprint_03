@@ -48,7 +48,7 @@ class ViewController: UIViewController {
                         counterLabel.text = "\(intOldNumber - 1)"
                         logView.text += "\n[\(getDateTimeString())]: значение изменено на -1"
                     } else {
-                        logView.text = "\n[\(getDateTimeString())]: попытка уменьшить значение счётчика ниже 0"
+                        logView.text += "\n[\(getDateTimeString())]: попытка уменьшить значение счётчика ниже 0"
                     }
                 }
             }
